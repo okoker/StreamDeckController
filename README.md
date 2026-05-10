@@ -14,7 +14,7 @@ The manufacturer-supplied software ("VSD Craft") is a ~980 MB Qt app bundled wit
 
 ## Hardware
 
-**Primary target:** [TreasLin N3](https://www.amazon.com/dp/B0D2M1Y18C) — a budget USB stream deck with 6 LCD keys, 3 tactile buttons, 1 large rotary encoder, and 2 small rotary encoders. All encoders are also push-buttons.
+**Primary target:** [TreasLin N3](https://www.amazon.com/dp/B0FFMY9DZ8) — a budget USB stream deck with 6 LCD keys, 3 tactile buttons, 1 large rotary encoder, and 2 small rotary encoders. All encoders are also push-buttons.
 
 **Known clones / rebrands** that share the same USB VID/PID (`0x5548:0x1001`) and CRT protocol — this controller should work with them out of the box:
 
