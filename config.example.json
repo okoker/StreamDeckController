@@ -1,0 +1,32 @@
+{
+  "brightness": 50,
+  "buttons": {
+    "lcd_1": { "action": "shell:open -a 'Google Chrome'", "icon": "/Applications/Google Chrome.app/Contents/Resources/app.icns" },
+    "lcd_2": { "action": "shell:open -a 'Docker Desktop'", "icon": "/Applications/Docker.app/Contents/Resources/AppIcon.icns" },
+    "lcd_3": { "action": "shell:open -a 'Penkeep'", "icon": "/Applications/Penkeep.app/Contents/Resources/icon.icns" },
+    "lcd_4": { "action": "key:cmd+space" },
+    "lcd_5": { "action": "none" },
+    "lcd_6": { "action": "none" },
+    "btn_1": { "action": "none" },
+    "btn_2": { "action": "none" },
+    "btn_3": { "action": "none" }
+  },
+  "knobs": {
+    "big": {
+      "rotate": { "action": "system_volume", "step": 5 },
+      "press":  { "action": "system_mute_toggle" }
+    },
+    "small_1": {
+      "rotate": { "action": "none", "step": 3 },
+      "press":  { "action": "none" }
+    },
+    "small_2": {
+      "rotate": { "action": "display_brightness", "step": 5 },
+      "press":  { "action": "display_brightness_cycle" }
+    }
+  },
+  "displays": [
+    { "name": "Left",  "serial": "YOUR_AN_SERIAL_1" },
+    { "name": "Right", "serial": "YOUR_AN_SERIAL_2" }
+  ]
+}

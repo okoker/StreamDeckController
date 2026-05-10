@@ -1,0 +1,9 @@
+_obsolete/
+.build/
+__user_private/
+_security_reviews/
+CLAUDE.md
+docs/superpowers/
+config.json
+*.jpg
+!docs/assets/streamdeck.jpg
